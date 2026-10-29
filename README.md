@@ -6,7 +6,8 @@ REST API для управления пользователями и задач�
 
 ## Установка и запуск
 Клонируйте репозиторий:
-git clone <URL_РЕПОЗИТОРИЯ>
+git clone https://github.com/moleculalisa/ai-assist-it.git
+cd ai-assist-it
 cd ai-assist-it
 Установите зависимости проекта:
 go mod download
@@ -149,5 +150,6 @@ curl -X POST http://localhost:8080/api/v1/todos/ \
 ## Лицензия
 Учебный проект. Используется в рамках образовательного задания.
 Контакты
-Автор проекта: GitHub-профиль
+
+Автор проекта: [GitHub-профиль](https://github.com/moleculalisa)
 
