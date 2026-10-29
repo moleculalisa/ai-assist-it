@@ -1,10 +1,17 @@
 package main
 
+// @title Todo API
+// @version 1.0
+// @description REST API для управления пользователями и задачами.
+// @host localhost:8080
+// @BasePath /
+
 import (
 	"log"
 	"net/http"
 
 	"api-doc-example/internal/handlers"
+	_ "api-doc-example/docs"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
